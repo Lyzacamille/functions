@@ -4,7 +4,7 @@ function add (a,b){
     return a + b;
 }
 var x = add(2,4);
-
+console.log(x);
 // 2. Write a function named "multiply" that takes two arguments and returns their product.
 function multiply (a,b){
     let p1 = 0;
@@ -14,6 +14,7 @@ function multiply (a,b){
     return p1;
 }
 var z = multiply(6,8);
+console.log(z);
 
 // 3. Write a function named "power" that takes two arguments (x and n) and returns the the result of raising x to the nth power.
 function power (x,n) {
@@ -24,7 +25,7 @@ function power (x,n) {
     return po;
 }
 var y = power(2,8);
-
+console.log(y);
 //Write a function named "factorial" that takes a single argument and returns the factorial of that argument.
 function factorial (a){
     var fa = 1;
@@ -32,9 +33,9 @@ function factorial (a){
         fa = multiply(fa,i)
     }
 return(fa);
-    console.log(factorial(4));
+    
 }
-
+console.log(factorial(4));
 //Write a function named "fibonacci" that takes an argument n and returns the nth, Fibonacci number (Links to an external site.)
 function  fibonacci (n){
         var total = 0;
@@ -44,6 +45,9 @@ function  fibonacci (n){
         total = add(zero,one);
         zero = one ; 
         one = total;
+    
     }
     return(total);
+   
 }
+console.log(fibonacci(8));
